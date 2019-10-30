@@ -38,7 +38,7 @@ matrix:
         #  arch: arm64
         #  compiler: gcc
         #  env: CONFIG_OPTS="--strict-warnings"
-        - os: linux-ppc64le
+        - os: linux
           sudo: false
           compiler: clang
           env: CONFIG_OPTS="--strict-warnings -D__NO_STRING_INLINES"
